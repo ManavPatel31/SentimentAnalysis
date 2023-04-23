@@ -11,18 +11,17 @@ The dataset is a collection of data on beauty products sold on Amazon. It contai
 
 # II.	PROJECT SCOPE
 
-#A.	Scope
+# A.	Scope
 The All_Beauty dataset can be used to perform sentiment analysis and build a recommender system. Sentiment analysis involves examining customer reviews to determine whether they have a positive, negative, and neutral sentiment towards a product. A recommender system involves providing suggestions to customers based on their preferences and behaviours. 
 
 
-#B.	Problem
+# B.	Problem
 Many different factors can influence a customer’s opinion of a product which defines the main problem with building a sentiment analysis model and a recommender system. For example, a single customer an have different opinions on different beauty products provided by the same company, while other customer do compare prices and brands. 
 
-#C.	Proposed Solution
-To address these challenges, we will build models that will understand the different factors that influence customer behaviour. For example, sentiment analysis models can be trained to take into consider different emojis and punctuations and specific keywords to try and understand different human sentiments such as excited, terrible, sarcasm, etc. The 
+# C.	Proposed Solution
+To address these challenges, we will build models that will understand the different factors that influence customer behaviour. For example, sentiment analysis models can be trained to take into consider different emojis and punctuations and specific keywords to try and understand different human sentiments such as excited, terrible, sarcasm, etc. The recommender systems can be trained to identify patterns based on customer behaviours such as purchasing history and product preferences.
 
-recommender systems can be trained to identify patterns based on customer behaviours such as purchasing history and product preferences.
-#III.	DATA EXPLORATION
+# III.	DATA EXPLORATION
 The original dataset contains around 371,345 reviews for Beauty products on amazon out of which we selected a part of this dataset containing 5,269 reviews across 85 distinct products. After loading the JSON file, we explored the distribution of the data across different categories such as ‘asin’,’overall’ and ’reviewerID’, and found insights to the correlation amongst which products have the most reviews and how those reviews are distributed among different star ratings. We also calculated the total number of reviews given by a single customer. 
 We loaded, explored and merged the meta_All_Beauty.json dataset to get the product name and found the first five most reviewed product and the most popular product is “Bath &amp; Body Works Ile De Tahiti Moana Coconut Vanille Moana Body Wash with Tamanoi 8.5 oz”. We found the top five products and displayed the counts of reviews. 
 <img width="252" alt="image" src="https://user-images.githubusercontent.com/90365773/233864880-cb134fc0-d539-46f1-835d-3a66c8cbdb4b.png">
