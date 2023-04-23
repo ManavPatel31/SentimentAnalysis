@@ -82,11 +82,11 @@ Machine learning approache can achieve higher accuracy for sentiment analysis ta
 # B.	Approach
 Vader and TextBlob rely on prebuilt sentiments lexicons containing list of words with their associated sentiment scores. While Naïve Bayes and Logistic Regression use statistical models to learn the relationship between words and sentiment labels from labeled training data.
 
-#C.	Training 
+# C.	Training 
 Vader and TextBlob are prebuilt sentiment lexicons that are already trained and hence do not require any additional training. However, they may require fine tuning for specific domains or languages. While Naïve Bayes and Logistic Regression require training on a labeled dataset, which can be time consuming and resource intensive. However, once strained the model can be used to classify sentiments for new data.
 
-#D.	Application
+# D.	Application
 Vader and TextBlob are well suited for sentiment classification for social media texts or product reviews where the sentiment polarity is often clear and the texts are relatively short while Naïve Bayes and Logistic Regression are better suited for tasks where the sentiment polarity may be more ambiguous and the text are longer such as analyzing sentiments in news articles or scientific papers.
 
-#VIII.	CONCLUSION
+# VIII.	CONCLUSION
 In conclusion, both the Lexicon and Machine Learning approaches were effective in building sentiment analysis models for products based on customer reviews. However, the Random Forest Classifier model performed slightly better than the Lexicon models in terms of accuracy, precision, recall, and F1 score.
